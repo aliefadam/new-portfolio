@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alief Sya'arah Adam - Portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- <link
+      href="https://ai-public.creatie.ai/gen_page/tailwind-custom.css"
+      rel="stylesheet"
+    />
+
+    <script src="https://cdn.tailwindcss.com/3.4.5?plugins=forms@0.5.7,typography@0.5.13,aspect-ratio@0.4.2,container-queries@0.1.1"></script>
+    <script
+      src="https://ai-public.creatie.ai/gen_page/tailwind-config.min.js"
+      data-color="#000000"
+      data-border-radius="small"
+    ></script> -->
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body class="font-[Poppins] bg-[#0f0e17]">
+    <nav class="fixed top-0 w-full z-50 bg-[#0f0e17]">
+      <div class="max-w-7xl mx-auto px-10 sm:px-6 lg:px-8">
+        <div class="flex justify-between h-[80px]">
+          <div class="flex-shrink-0 flex items-center">
+            <span class="text-xl lg:text-2xl font-bold text-white"
+              >Aliefadam</span
+            >
+          </div>
+          <div class="hidden md:flex items-center space-x-8">
+            <a href="#home" class="text-gray-50 hover:text-[#ff8906]">Home</a>
+            <a href="#about" class="text-gray-50 hover:text-[#ff8906]"
+              >About me</a
+            >
+            <a href="#projects" class="text-gray-50 hover:text-[#ff8906]"
+              >Projects</a
+            >
+            <a href="#skills" class="text-gray-50 hover:text-[#ff8906]"
+              >Skills</a
+            >
+            <a href="#contact" class="text-gray-50 hover:text-[#ff8906]"
+              >Contact</a
+            >
+          </div>
+          <div class="md:hidden flex items-center">
+            <button class="mobile-menu-button">
+              <i class="fas fa-bars text-white cursor-pointer text-2xl"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="mobile-menu hidden md:hidden">
+        <a
+          href="#home"
+          class="block py-3 px-10 text-white text-base hover:text-[#ff8906]"
+          >Home</a
+        >
+        <a
+          href="#about"
+          class="block py-3 px-10 text-white text-base hover:text-[#ff8906]"
+          >About me</a
+        >
+        <a
+          href="#projects"
+          class="block py-3 px-10 text-white text-base hover:text-[#ff8906]"
+          >Projects</a
+        >
+        <a
+          href="#skills"
+          class="block py-3 px-10 text-white text-base hover:text-[#ff8906]"
+          >Skills</a
+        >
+        <a
+          href="#contact"
+          class="block py-3 px-10 text-white text-base hover:text-[#ff8906]"
+          >Contact</a
+        >
+      </div>
+    </nav>
+
+    <section id="home" class="pt-24 pb-16 md:pt-32 md:pb-24">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div
+          class="flex flex-col md:flex-row gap-10 items-center justify-between"
+        >
+          <div
+            class="md:w-1/2 mb-8 md:mb-0 order-last md:order-first"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+          >
+            <h1 class="text-3xl md:text-4xl font-bold mb-2 text-[#ff8906]">
+              Hi, I am
+            </h1>
+            <h1 class="text-4xl md:text-5xl font-bold mb-4 text-white">
+              Alief Sya'arah Adam
+            </h1>
+            <p class="text-xl md:text-2xl font-semibold text-gray-600 mb-8">
+              Fullstack Web Developer
+            </p>
+            <a
+              href="#projects"
+              class="bg-[#ff8906] text-white px-8 py-3 rounded-md inline-block hover:bg-[#e67b05] transition duration-300 font-medium"
+              >View Projects</a
+            >
+          </div>
+          <div class="md:w-1/2" data-aos="fade-left" data-aos-duration="1000">
+            <img
+              src="/imgs/alief.png"
+              alt="Hero Image"
+              class="w-[70%] lg:w-full max-w-lg mx-auto"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="py-20 px-10">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex flex-col md:flex-row items-center gap-12">
+          <div class="md:w-1/2" data-aos="fade-up" data-aos-duration="1000">
+            <img
+              src="/imgs/about-me.jpg"
+              alt="Profile Picture"
+              class="rounded-lg w-full max-w-md mx-auto"
+            />
+          </div>
+          <div class="md:w-1/2" data-aos="fade-down" data-aos-duration="1000">
+            <h2 class="text-3xl font-bold mb-6 text-white">About Me</h2>
+            <p class="text-gray-300 mb-6">
+              I am a 8th-semester student at Universitas 17 Agustus 1945,
+              Surabaya, with a primary focus on Fullstack Web development. I
+              possess skills in designing responsive and engaging user
+              interfaces and am adept at tackling complex challenges with strong
+              problem-solving abilities.
+            </p>
+            <p class="text-gray-300 mb-6">
+              Additionally, I have experience in backend development, including
+              API creation and database integration. My effective communication
+              skills and ability to work collaboratively have been honed
+              throughout my academic journey.
+            </p>
+            <div class="flex gap-4">
+              <a
+                href="#contact"
+                class="bg-[#ff8906] text-white px-8 py-3 rounded-md inline-block hover:bg-[#e67b05] transition duration-300 font-medium"
+                >Contact Me</a
+              >
+              <a
+                href="/data/Alief Sya'arah Adam - CV.pdf"
+                target="_blank"
+                class="bg-transparent text-white border-2 border-white px-8 py-3 rounded-md inline-block hover:bg-gray-50 hover:text-[#ff8906] transition duration-300 font-medium"
+                >Download CV</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="py-20 px-10">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl font-bold mb-12 text-center text-white">
+          Projects
+        </h2>
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
+          id="projects-container"
+        ></div>
+      </div>
+    </section>
+
+    <section id="skills" class="py-20 px-10">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl font-bold mb-12 text-center text-white">Skills</h2>
+        <div
+          class="grid grid-cols-2 md:grid-cols-4 gap-8"
+          id="skills-container"
+        ></div>
+      </div>
+    </section>
+
+    <section id="contact" class="py-20 px-10">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl font-bold mb-12 text-center text-white">
+          Contact Me
+        </h2>
+        <div class="max-w-3xl mx-auto">
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+            <a
+              data-aos="fade-right"
+              data-aos-duration="1000"
+              href="mailto:aliefadam6@gmail.com"
+              class="flex flex-col items-center p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition duration-300 hover:bg-gray-100"
+            >
+              <i class="fas fa-envelope text-3xl text-custom mb-4"></i>
+              <h3 class="font-medium mb-2">Email</h3>
+              <p class="text-gray-600 text-sm">aliefadam6@gmail.com</p>
+            </a>
+            <a
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              href="https://instagram.com/aliefadm_"
+              target="_blank"
+              class="flex flex-col items-center p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition duration-300 hover:bg-gray-100"
+            >
+              <i class="fab fa-instagram text-3xl text-custom mb-4"></i>
+              <h3 class="font-medium mb-2">Instagram</h3>
+              <p class="text-gray-600 text-sm">@aliefadm_</p>
+            </a>
+            <a
+              data-aos="fade-left"
+              data-aos-duration="1000"
+              href="https://github.com/aliefadam"
+              target="_blank"
+              class="flex flex-col items-center p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition duration-300 hover:bg-gray-100"
+            >
+              <i class="fab fa-github text-3xl text-custom mb-4"></i>
+              <h3 class="font-medium mb-2">GitHub</h3>
+              <p class="text-gray-600 text-sm">@aliefadam</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="py-8">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center">
+          <p class="text-white">&copy; 2025 Aliefadam. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <div id="project-modal" class="fixed inset-0 bg-black/70 hidden z-50">
+      <div
+        class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white rounded-lg w-11/12 max-w-4xl max-h-[90vh] overflow-y-auto"
+      >
+        <div class="p-6">
+          <div class="flex justify-between items-center mb-6">
+            <h3 class="text-xl font-semibold" id="modal-title"></h3>
+            <button
+              class="text-gray-500 hover:text-gray-700 cursor-pointer"
+              id="close-modal"
+            >
+              <i class="fas fa-times text-xl"></i>
+            </button>
+          </div>
+          <div id="modal-content"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/skills.js"></script>
+    <script src="js/projects.js"></script>
+    <script src="js/navbar.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
