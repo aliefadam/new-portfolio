@@ -46,6 +46,20 @@ const projects = [
     github: "https://github.com/aliefadam/tangerine",
     demo: "https://tangerine.my.id/",
   },
+  {
+    id: 5,
+    imageThumbnail: "/imgs/projects/hris-thumbnail.png",
+    title: "Human Resource Information System",
+    description:
+      "This website is a human resource information system (HRIS) designed to manage employee data, permits, and various other internal administrative needs. This website was developed during my internship at CV. DB Klik and is intended specifically for internal company use. Created using Laravel and TailwindCSS, this system has a modern and responsive look that makes it easy for users to access and manage personnel information practically and efficiently.",
+    images: [
+      "/imgs/projects/hris-login.png",
+      "/imgs/projects/hris-perizinan.png",
+    ],
+    tech: ["Laravel", "Tailwind CSS"],
+    github: "https://github.com/aliefadam/hris-panel",
+    demo: "",
+  },
 ];
 
 let htmlProject = "";
