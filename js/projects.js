@@ -141,19 +141,6 @@ projectButtons.forEach((button) => {
               .join("")}
           </div>
           <div class="flex gap-4">
-            ${
-              project.demo == ""
-                ? ""
-                : `
-            <a
-              href="${project.demo}"
-              target="_blank"
-              class="bg-[#0f0e17] text-sm mt-1 cursor-pointer text-white px-8 py-3 rounded-md inline-block transition duration-300 font-medium"
-            >
-              Live Demo <i class="fas fa-external-link-alt ml-2"></i>
-            </a>
-            `
-            }
             <a
               href="${project.github}"
               target="_blank"
